@@ -79,6 +79,15 @@
   font-size: 16px;
   line-height: 19px;
 }
+
+.carousel-button {
+  width: 50px;
+}
+
+.carousel-bottom-btn {
+  width: 192px !important;
+  background: #000;
+}
 /* <!--====================== INFO ================================ --> */
 .info {
   width: 100%;
