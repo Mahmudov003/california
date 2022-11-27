@@ -91,7 +91,6 @@
 /* <!--====================== INFO ================================ --> */
 .info {
   width: 100%;
-  max-height: 1018px;
   margin-top: 75px;
 }
 
@@ -99,6 +98,7 @@
   max-width: 780px;
   height: 114px;
   margin: auto;
+  margin-bottom: 50px;
 }
 
 .info__in--h2 {
@@ -118,13 +118,7 @@
 }
 
 .info__product {
-  max-width: 100%;
-  display: grid;
-  grid-template-columns: 2fr 1fr 1fr;
-  grid-template-rows: 2fr 3fr 3fr;
-  gap: 20px;
-  position: relative;
-  margin-top: 50px;
+  width: 100%;
 }
 
 .product_card {
@@ -145,14 +139,13 @@
 }
 .card1 {
   height: 472px;
-  width: 639px;
-
+  width: 100%;
   position: relative;
 }
 .card2,
 .card3 {
   height: 792px;
-  width: 312px;
+  width: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -164,17 +157,16 @@
 }
 .card4 {
   height: 270px;
-  width: 639px;
+  width: 100%;
   display: flex;
-  margin-top: -280px;
-  position: relative;
+  margin-top: 70px;
 }
 
 .card-param1 {
-  position: absolute;
-  bottom: 0;
-  right: 0;
   width: 192px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
 .card-param4 {
   width: 128px;
@@ -183,8 +175,20 @@
   justify-content: center;
   flex-direction: column;
   margin: auto;
+} 
+.card_2 {
+  gap: 15px;
+  padding: 5px;
+},
+.card-img1 {
+  width: 85%;
 }
-
+.card-img2 {
+  width: 60%;
+}
+.card-img {
+  width: 99%;
+}
 /* <!--====================== PRODUCT ================================ --> */
 
 .product {
